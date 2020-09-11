@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.row {
+  background-color: #EBF6FF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.brand {
+  background-color: #cccccc;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.map {
+  width: 830px;
+  height: 685px;
+  background: url(./Map.png);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.location {
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.25);
+}
+
+
+.textt {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.centerr {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-soft {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  background-color: #EBF6FF;
+  box-shadow: -2px -4px 8px rgba(255, 255, 255, 1), 2px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-soft:focus {
+  box-shadow: inset -3px -4px 5px #FFFFFF, inset 2px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.btn-soft-pressed{
+  box-shadow: inset -3px -4px 5px #FFFFFF, inset 2px 4px 3px rgba(0, 0, 0, 0.25);
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  background-color: #EBF6FF;
+  border-radius: 9px;
+
+}
+
+.input {
+  background: linear-gradient(90deg, #EBF6FF 0%, #FBFBFB 100%);
+  box-shadow: inset -1px -1px 3px #FFFFFF, inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
 }
